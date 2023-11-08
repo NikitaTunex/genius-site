@@ -9,6 +9,12 @@
         background-color: darksalmon;
       }
     </style>
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;1,900&display=swap"
+      rel="stylesheet"
+    /> -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -72,16 +78,18 @@
       </section>
       <section id="BestRates">
         <ul class="advantages">
-          <li>No witdrawal limits</li>
-          <li>No deposit fees</li>
-          <li>No swap commissions</li>
+          <li class="advantagesItems">No witdrawal limits</li>
+          <li class="advantagesItems">No deposit fees</li>
+          <li class="advantagesItems">No swap commissions</li>
         </ul>
         <h2 class="header">Best rates</h2>
-        <p>
+        <p class="rates">
           Feel how is to be able to do <span>everything you want</span> it to do
           with your assets
         </p>
-        <p>Try the World's Most Innovative <span>FinTech Solution</span></p>
+        <p class="rates">
+          Try the World's Most Innovative <span>FinTech Solution</span>
+        </p>
         <img src="./images/Wallet.png" alt="wallet" />
       </section>
       <section id="HotMarkets">
@@ -125,22 +133,41 @@
           <li>
             <article>
               <h3 class="header">Etherium</h3>
+              <p>
+                Etherscan allows you to explore and search the Ethereum
+                blockchain for transactions, addresses, tokens, prices and other
+                activities taking place on Ethereum.
+              </p>
             </article>
           </li>
           <li>
             <article>
               <h3 class="header">Tron</h3>
+              <p>
+                TRON is an ambitious project dedicated to building the
+                infrastructure for a truly decentralized Internet. The TRON
+                Protocol, one of the largest blockchain.
+              </p>
             </article>
           </li>
           <li>
             <article>
               <h3 class="header">Polygon</h3>
+              <p>
+                We are leveraging our core blockchain solutions and services to
+                be proactive in the fight against climate change. Polygon is
+                carbon neutral.
+              </p>
             </article>
           </li>
         </ul>
       </section>
       <section id="PublicRelease">
         <h2 class="header">Public Release</h2>
+        <p>
+          Public Release. Definition. The act of making information available to
+          the general public, usually through an approved process.
+        </p>
         <iframe
           width="1100"
           height="600"
@@ -150,6 +177,7 @@
           allowfullscreen
         ></iframe>
         <h2 class="header">Find Us</h2>
+
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5147.997746057859!2d24.024272896683147!3d49.82368638019402!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae78ac19b0467%3A0x2b2237553544c794!2z0KHRgtGA0YvQudGB0LrQuNC5INC_0LDRgNC6!5e0!3m2!1sru!2sua!4v1699382420949!5m2!1sru!2sua"
           width="600"
@@ -172,37 +200,42 @@
         <a href="#"></a>
         <img src="./images/Marionette.svg" alt="logo of the company" />
         <ul>
-          <li><a href="#BestRates">Best rates</a></li>
-          <li><a href="#HotMarkets">Hot markets</a></li>
-          <li><a href="#OnChainSwap">On-chain swap</a></li>
-          <li><a href="#PublicRelease">Public Release</a></li>
+          <li><a class="NavLink" href="#BestRates">Best rates</a></li>
+          <li><a class="NavLink" href="#HotMarkets">Hot markets</a></li>
+          <li><a class="NavLink" href="#OnChainSwap">On-chain swap</a></li>
+          <li><a class="NavLink" href="#PublicRelease">Public Release</a></li>
         </ul>
       </nav>
       <address>
         <ul>
-          <li><a href="tel:+380509802727">050 980 27 27</a></li>
+          <li><a class="address" href="tel:+380509802727">050 980 27 27</a></li>
           <li>
-            <a href="mailto:nikvod1990@gmali.com">nikvod1990@gmail.com</a>
+            <a class="address" href="mailto:nikvod1990@gmali.com"
+              >nikvod1990@gmail.com</a
+            >
           </li>
           <li>
-            <a href="https://maps.app.goo.gl/oHRnxhnLx63KNPry8" target="_blank"
+            <a
+              class="address"
+              href="https://maps.app.goo.gl/oHRnxhnLx63KNPry8"
+              target="_blank"
               >Stryisky Park Lviv, Lviv region, 79000</a
             >
           </li>
         </ul>
         <ul>
           <li>
-            <a href="#">
+            <a class="address" href="#">
               <!-- facebook -->
             </a>
           </li>
           <li>
-            <a href="#">
+            <a class="address" href="#">
               <!-- instagram -->
             </a>
           </li>
         </ul>
-        <a href="#" target="_blank">Policy</a>
+        <a class="address" href="#" target="_blank">Policy</a>
         <p>&copy; 2023 All rights reserved</p>
       </address>
     </footer>

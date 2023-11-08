@@ -1,3 +1,107 @@
+/* poppins-300 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: url('../fonts/poppins-v20-latin-300.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/poppins-v20-latin-300.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/poppins-v20-latin-300.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+        url('../fonts/poppins-v20-latin-300.woff') format('woff'),
+        /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+        url('../fonts/poppins-v20-latin-300.ttf') format('truetype'),
+        /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+        url('../fonts/poppins-v20-latin-300.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
+
+/* poppins-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/poppins-v20-latin-regular.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/poppins-v20-latin-regular.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/poppins-v20-latin-regular.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+        url('../fonts/poppins-v20-latin-regular.woff') format('woff'),
+        /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+        url('../fonts/poppins-v20-latin-regular.ttf') format('truetype'),
+        /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+        url('../fonts/poppins-v20-latin-regular.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
+
+/* poppins-600 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/poppins-v20-latin-600.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/poppins-v20-latin-600.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/poppins-v20-latin-600.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+        url('../fonts/poppins-v20-latin-600.woff') format('woff'),
+        /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+        url('../fonts/poppins-v20-latin-600.ttf') format('truetype'),
+        /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+        url('../fonts/poppins-v20-latin-600.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
+
+/* poppins-800 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    src: url('../fonts/poppins-v20-latin-800.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/poppins-v20-latin-800.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/poppins-v20-latin-800.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+        url('../fonts/poppins-v20-latin-800.woff') format('woff'),
+        /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+        url('../fonts/poppins-v20-latin-800.ttf') format('truetype'),
+        /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+        url('../fonts/poppins-v20-latin-800.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
+
+/* poppins-900 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    src: url('../fonts/poppins-v20-latin-900.eot');
+    /* IE9 Compat Modes */
+    src: url('../fonts/poppins-v20-latin-900.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/poppins-v20-latin-900.woff2') format('woff2'),
+        /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+        url('../fonts/poppins-v20-latin-900.woff') format('woff'),
+        /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+, iOS 5+ */
+        url('../fonts/poppins-v20-latin-900.ttf') format('truetype'),
+        /* Chrome 4+, Firefox 3.5+, IE 9+, Safari 3.1+, iOS 4.2+, Android Browser 2.2+ */
+        url('../fonts/poppins-v20-latin-900.svg#Poppins') format('svg');
+    /* Legacy iOS */
+}
 /* Base */
 ul{
     list-style-type: none;
@@ -14,55 +118,110 @@ ul{
 }
 #header {
     border: 5px solid --color-dark; */
+    /* Body */
+    body{
+        color: var(--color-dark);
+        font-family: 'Poppins', sans-serif;
+        font-size: 20;
+        font-weight: 400;
+        line-height: 1.5;
+    }
 /* Disabled */
 [disabled]
 {
-        border: 5px solid --color-dark;
+        border: 5px solid var(--color-dark);
 }
 /* Button */
         .button {
-            color: --color-light;
-            background-color:--color-marionette ;
+            color: var(--color-light);
+            background-color:var(--color-marionette) ;
             border: 2px solid ;
             border-radius: 10px;
             cursor: pointer;
+            font-size: 20;
+            font-weight: 600;
+            line-height: 1.5;
 
 }
                 .button [disabled] {
-                    border: 5px solid --color-dark;
+                    border: 5px solid var(--color-light);
 }
                 .button:hover{
                     background-color: transparent;
-                    color: --color-marionette
+                    color: var(--color-marionette);
 }
                 .button:focus {
-                    background-color:--color-marionette;
-                        color: --color-light
+                    background-color:var(--color-marionette);
+                        color: var(--color-light)
 }
                                                            .button:active {
-                                                            background-color: --color-marionette;
-                                                               color: --color-marionette
+                                                            background-color: var(--color-marionette);
+                                                               color: var(--color-marionette);
 /* Navigation link */
                                                            }
                                                            .NavLink {
-                                                            color: --color-marionette
+                                                            color: var(--color-marionette);
+                                                            text-decoration: none;
+                                                            font-size: 30px;
+                                                            font-weight: 600;
+                                                            line-height: 1.5;
+                                                            
                                                            }
                                                            .NavLink:hover{
-                                                            color: --color-dark;
+                                                            color: var(--color-dark);
+                                                            text-decoration: underline;
+                                                            font-weight: 800;
                                                            }
 /* Hero Header */
 .HeroHeader{
-    color: --color-light
+    color: var(--color-light);
+    text-align: center;
+    text-shadow: 2px 3px 4px var(--color-dark);
+    letter-spacing: 4px;
+    word-spacing: 15 px;
+    font-size: 130px;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 1.5;
+    /* text-transform: uppercase; */
+    
 }
 .HeroHeader span{
-    color: --color-marionette;
+    color: var(--color-marionette);
+    font-family: 'Poppins', sans-serif;
 }
 /* Advantages */
 .advantages{
     background-color: coral;
-    color: --color-light;
+    color: var(--color-light);
 }
+.advantagesItems {
+                color: var(--color-light);
+                    letter-spacing: 4px;
+                    word-spacing: 15 px;
+                    font-size: 30px;
+                    font-weight: 900;
+                    font-style: italic;
+                    line-height: 1.5;
+        }
 /* Headers */
 .header{
-    color: --color-marionette;
+    color: var(--color-marionette);
+    line-height: 1.5;
+    font-weight: 900;
+    font-size: 60px;
+    
+}
+/* Best Rates section*/
+.rates span{
+    text-transform: uppercase;
+    color: var(--color-dark);
+    font-weight: 600;
+}
+/* Address */
+.address {
+        color: var(--color-marionette);
+            line-height: 1.5;
+            font-weight: 900;
+            font-size: 20px;
 }
