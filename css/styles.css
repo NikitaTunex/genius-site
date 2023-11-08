@@ -1,0 +1,68 @@
+/* Base */
+ul{
+    list-style-type: none;
+}
+:root{
+    --color-marionette:#EC5B43;
+    --color-dark: black;
+    --color-light: #FFF;
+    
+}
+/*  */
+/* .header{
+    border: 5px solid --color-dark;
+}
+#header {
+    border: 5px solid --color-dark; */
+/* Disabled */
+[disabled]
+{
+        border: 5px solid --color-dark;
+}
+/* Button */
+        .button {
+            color: --color-light;
+            background-color:--color-marionette ;
+            border: 2px solid ;
+            border-radius: 10px;
+            cursor: pointer;
+
+}
+                .button [disabled] {
+                    border: 5px solid --color-dark;
+}
+                .button:hover{
+                    background-color: transparent;
+                    color: --color-marionette
+}
+                .button:focus {
+                    background-color:--color-marionette;
+                        color: --color-light
+}
+                                                           .button:active {
+                                                            background-color: --color-marionette;
+                                                               color: --color-marionette
+/* Navigation link */
+                                                           }
+                                                           .NavLink {
+                                                            color: --color-marionette
+                                                           }
+                                                           .NavLink:hover{
+                                                            color: --color-dark;
+                                                           }
+/* Hero Header */
+.HeroHeader{
+    color: --color-light
+}
+.HeroHeader span{
+    color: --color-marionette;
+}
+/* Advantages */
+.advantages{
+    background-color: coral;
+    color: --color-light;
+}
+/* Headers */
+.header{
+    color: --color-marionette;
+}
