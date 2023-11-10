@@ -19,193 +19,218 @@
   </head>
   <body>
     <header>
-      <nav>
-        <a href="./index.html">
-          <img src="./images/Marionette.svg" alt="logo of the company" />
-        </a>
-        <ul>
-          <li><a class="NavLink" href="#BestRates">Best rates</a></li>
-          <li><a class="NavLink" href="#HotMarkets">Hot markets</a></li>
-          <li><a class="NavLink" href="#OnChainSwap">On-chain swap</a></li>
-          <li><a class="NavLink" href="#PublicRelease">Public Release</a></li>
-        </ul>
-      </nav>
-      <button class="button" type="submit">Book a call</button>
+      <div class="container">
+        <div class="HeaderFlexContainer">
+          <nav class="headerNav">
+            <a href="./index.html">
+              <img src="./images/Marionette.svg" alt="logo of the company" />
+            </a>
+            <ul class="headerLinks">
+              <li><a class="NavLink" href="#BestRates">Best rates</a></li>
+              <li><a class="NavLink" href="#HotMarkets">Hot markets</a></li>
+              <li><a class="NavLink" href="#OnChainSwap">On-chain swap</a></li>
+              <li>
+                <a class="NavLink" href="#PublicRelease">Public Release</a>
+              </li>
+            </ul>
+          </nav>
+          <button class="button" type="submit">Book a call</button>
+        </div>
+      </div>
     </header>
     <table>
-      <caption>
-        Top Traders
-      </caption>
-      <thead>
-        <tr>
-          <th>No.</th>
-          <th>User Name</th>
-          <th>Trade Volume BTC</th>
-          <th>Reward USD</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>1.</td>
-          <td>Quentin Tarantino</td>
-          <td>7.12</td>
-          <td>5467.01</td>
-        </tr>
-        <tr>
-          <td>2.</td>
-          <td>Johnny Depp</td>
-          <td>6.43</td>
-          <td>4876.55</td>
-        </tr>
-        <tr>
-          <td>3.</td>
-          <td>Jennifer Lopez</td>
-          <td>5.12</td>
-          <td>3689.04</td>
-        </tr>
-        <tr>
-          <td>4.</td>
-          <td>Cristiano Ronaldo</td>
-          <td>2.89</td>
-          <td>1658.34</td>
-        </tr>
-      </tbody>
-      <tfoot></tfoot>
+      <div class="container">
+        <caption>
+          Top Traders
+        </caption>
+        <thead>
+          <tr>
+            <th>No.</th>
+            <th>User Name</th>
+            <th>Trade Volume BTC</th>
+            <th>Reward USD</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1.</td>
+            <td>Quentin Tarantino</td>
+            <td>7.12</td>
+            <td>5467.01</td>
+          </tr>
+          <tr>
+            <td>2.</td>
+            <td>Johnny Depp</td>
+            <td>6.43</td>
+            <td>4876.55</td>
+          </tr>
+          <tr>
+            <td>3.</td>
+            <td>Jennifer Lopez</td>
+            <td>5.12</td>
+            <td>3689.04</td>
+          </tr>
+          <tr>
+            <td>4.</td>
+            <td>Cristiano Ronaldo</td>
+            <td>2.89</td>
+            <td>1658.34</td>
+          </tr>
+        </tbody>
+        <tfoot></tfoot>
+      </div>
     </table>
     <main>
-      <section>
-        <h1 class="HeroHeader"><span>Marionette</span> Exchange</h1>
+      <section class="HeroSection">
+        <div class="container">
+          <h1 class="HeroHeader"><span>Marionette</span> Exchange</h1>
+        </div>
       </section>
-      <section id="BestRates">
-        <ul class="advantages">
-          <li class="advantagesItems">No witdrawal limits</li>
-          <li class="advantagesItems">No deposit fees</li>
-          <li class="advantagesItems">No swap commissions</li>
-        </ul>
-        <h2 class="header">Best rates</h2>
-        <p class="rates">
-          Feel how is to be able to do <span>everything you want</span> it to do
-          with your assets
-        </p>
-        <p class="rates">
-          Try the World's Most Innovative <span>FinTech Solution</span>
-        </p>
-        <img src="./images/Wallet.png" alt="wallet" />
+      <section class="section" id="BestRates">
+        <div class="container">
+          <ul class="advantages">
+            <li class="advantagesItems">No witdrawal limits</li>
+            <li class="advantagesItems">No deposit fees</li>
+            <li class="advantagesItems">No swap commissions</li>
+          </ul>
+          <div class="BestRatesContainer">
+            <div class="BestRatesContent">
+              <h2 class="header">Best rates</h2>
+              <p class="rates">
+                Feel how is to be able to do <span>everything you want</span> it
+                to do with your assets
+              </p>
+              <p class="rates">
+                Try the World's Most Innovative <span>FinTech Solution</span>
+              </p>
+            </div>
+            <img src="./images/Wallet.png" alt="wallet" />
+          </div>
+        </div>
       </section>
-      <section id="HotMarkets">
-        <h2 class="header">Hot markets</h2>
-        <ul>
-          <li>
-            <article>
-              <h3 class="header">BTC</h3>
-              <p>
-                Sending bitcoins across borders is as easy as sending them
-                across the street.
-              </p>
-              <p>
-                There are no banks to make you wait three business days, no
-                extra fees for making an international transfer, and no special
-                limitations on the minimum or maximum amount you can send.
-              </p>
-              <img src="./images/BTC.png" alt="btc" />
-            </article>
-          </li>
-          <li>
-            <article>
-              <h3 class="header">ETH</h3>
-              <p>
-                Etherscan API PRO is a monthly subscription-based API service
-                that provides additional endpoints, higher rate limits and
-                escalated support for power users and commercial solutions.
-              </p>
-              <p>
-                To upgrade to a paid API Plan, head over to the APIs page and
-                select a plan that suits your needs.
-              </p>
-              <img src="./images/ETH.png" alt="wallet" />
-            </article>
-          </li>
-        </ul>
+      <section class="section" id="HotMarkets">
+        <div class="container">
+          <h2 class="header">Hot markets</h2>
+          <ul>
+            <li>
+              <article>
+                <h3 class="header">BTC</h3>
+                <p>
+                  Sending bitcoins across borders is as easy as sending them
+                  across the street.
+                </p>
+                <p>
+                  There are no banks to make you wait three business days, no
+                  extra fees for making an international transfer, and no
+                  special limitations on the minimum or maximum amount you can
+                  send.
+                </p>
+                <img src="./images/BTC.png" alt="btc" />
+              </article>
+            </li>
+            <li>
+              <article>
+                <h3 class="header">ETH</h3>
+                <p>
+                  Etherscan API PRO is a monthly subscription-based API service
+                  that provides additional endpoints, higher rate limits and
+                  escalated support for power users and commercial solutions.
+                </p>
+                <p>
+                  To upgrade to a paid API Plan, head over to the APIs page and
+                  select a plan that suits your needs.
+                </p>
+                <img src="./images/ETH.png" alt="wallet" />
+              </article>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section id="OnChainSwap">
-        <h2 class="header">On-chain swap</h2>
-        <ul>
-          <li>
-            <article>
-              <h3 class="header">Etherium</h3>
-              <p>
-                Etherscan allows you to explore and search the Ethereum
-                blockchain for transactions, addresses, tokens, prices and other
-                activities taking place on Ethereum.
-              </p>
-            </article>
-          </li>
-          <li>
-            <article>
-              <h3 class="header">Tron</h3>
-              <p>
-                TRON is an ambitious project dedicated to building the
-                infrastructure for a truly decentralized Internet. The TRON
-                Protocol, one of the largest blockchain.
-              </p>
-            </article>
-          </li>
-          <li>
-            <article>
-              <h3 class="header">Polygon</h3>
-              <p>
-                We are leveraging our core blockchain solutions and services to
-                be proactive in the fight against climate change. Polygon is
-                carbon neutral.
-              </p>
-            </article>
-          </li>
-        </ul>
+      <section class="section" id="OnChainSwap">
+        <div class="container">
+          <h2 class="header">On-chain swap</h2>
+          <ul class="ChainList">
+            <li>
+              <article class="chain">
+                <h3 class="header">Etherium</h3>
+                <p>
+                  Etherscan allows you to explore and search the Ethereum
+                  blockchain for transactions, addresses, tokens, prices and
+                  other activities taking place on Ethereum.
+                </p>
+              </article>
+            </li>
+            <li>
+              <article class="chain">
+                <h3 class="header">Tron</h3>
+                <p>
+                  TRON is an ambitious project dedicated to building the
+                  infrastructure for a truly decentralized Internet. The TRON
+                  Protocol, one of the largest blockchain.
+                </p>
+              </article>
+            </li>
+            <li>
+              <article class="chain">
+                <h3 class="header">Polygon</h3>
+                <p>
+                  We are leveraging our core blockchain solutions and services
+                  to be proactive in the fight against climate change. Polygon
+                  is carbon neutral.
+                </p>
+              </article>
+            </li>
+          </ul>
+        </div>
       </section>
-      <section id="PublicRelease">
-        <h2 class="header">Public Release</h2>
-        <p>
-          Public Release. Definition. The act of making information available to
-          the general public, usually through an approved process.
-        </p>
-        <iframe
-          width="1100"
-          height="600"
-          src="https://www.youtube.com/embed/KJ3epFWCcuI?si=DzQz_A-l20j-9J_Z"
-          title="YouTube video player"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen
-        ></iframe>
-        <h2 class="header">Find Us</h2>
+      <section class="section" id="PublicRelease">
+        <div class="container">
+          <h2 class="header">Public Release</h2>
+          <p>
+            Public Release. Definition. The act of making information available
+            to the general public, usually through an approved process.
+          </p>
+          <iframe
+            width="1100"
+            height="600"
+            src="https://www.youtube.com/embed/KJ3epFWCcuI?si=DzQz_A-l20j-9J_Z"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+          ></iframe>
+          <h2 class="header">Find Us</h2>
 
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5147.997746057859!2d24.024272896683147!3d49.82368638019402!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae78ac19b0467%3A0x2b2237553544c794!2z0KHRgtGA0YvQudGB0LrQuNC5INC_0LDRgNC6!5e0!3m2!1sru!2sua!4v1699382420949!5m2!1sru!2sua"
-          width="600"
-          height="600"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-        ></iframe>
-        <h2 class="header">News</h2>
-        <audio controls>
-          <source src="./audio/Track777.mp3" />
-        </audio>
-        <video controls>
-          <source src="./video/Comp.mp4" />
-        </video>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5147.997746057859!2d24.024272896683147!3d49.82368638019402!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae78ac19b0467%3A0x2b2237553544c794!2z0KHRgtGA0YvQudGB0LrQuNC5INC_0LDRgNC6!5e0!3m2!1sru!2sua!4v1699382420949!5m2!1sru!2sua"
+            width="600"
+            height="600"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <h2 class="header">News</h2>
+          <audio controls>
+            <source src="./audio/Track777.mp3" />
+          </audio>
+          <video controls>
+            <source src="./video/Comp.mp4" />
+          </video>
+        </div>
       </section>
     </main>
     <footer>
-      <nav>
-        <a href="#"></a>
-        <img src="./images/Marionette.svg" alt="logo of the company" />
-        <ul>
-          <li><a class="NavLink" href="#BestRates">Best rates</a></li>
-          <li><a class="NavLink" href="#HotMarkets">Hot markets</a></li>
-          <li><a class="NavLink" href="#OnChainSwap">On-chain swap</a></li>
-          <li><a class="NavLink" href="#PublicRelease">Public Release</a></li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav>
+          <a href="#"></a>
+          <img src="./images/Marionette.svg" alt="logo of the company" />
+          <ul>
+            <li><a class="NavLink" href="#BestRates">Best rates</a></li>
+            <li><a class="NavLink" href="#HotMarkets">Hot markets</a></li>
+            <li><a class="NavLink" href="#OnChainSwap">On-chain swap</a></li>
+            <li><a class="NavLink" href="#PublicRelease">Public Release</a></li>
+          </ul>
+        </nav>
+      </div>
       <address>
         <ul>
           <li><a class="address" href="tel:+380509802727">050 980 27 27</a></li>
