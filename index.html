@@ -62,7 +62,7 @@
                 Try the World's Most Innovative <span>FinTech Solution</span>
               </p>
             </div>
-            <img src="./images/Wallet.png" alt="wallet" />
+            <img class="Wallet" src="./images/Wallet.png" alt="wallet" />
           </div>
         </div>
       </section>
@@ -150,7 +150,7 @@
                 </article>
               </li>
             </ul>
-            <button class="switchArrowButton" type="button">
+            <button class="switchArrowButton next" type="button">
               <svg class="chainArrow" width="24" height="24">
                 <use href="./images/svg-sprite.svg#icon-arrow-left"></use>
               </svg>
@@ -173,21 +173,72 @@
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>
-          <div class="contact-container">
-            <div class="contact-form">
-              <h2 class="header">Find Us</h2>
-              <p>Fill contact form</p>
+          <section class="section">
+            <div class="contact-container">
+              <div class="contact-form">
+                <h2>Book a call</h2>
+                <p class="text-top">Fill the form to contact us</p>
+                <form name="FindUs-form" autocomplete="off">
+                  <div class="form-field">
+                    <input
+                      class="input"
+                      type="text"
+                      id="user-name"
+                      name="user-name"
+                    />
+                    <label class="form-label" for="user-name">Name</label>
+                  </div>
+                  <div class="form-field">
+                    <input
+                      class="input"
+                      type="tel"
+                      id="user-tel"
+                      name="user-tel"
+                    />
+                    <label class="form-label" for="user-tel"
+                      >Telephone number</label
+                    >
+                  </div>
+                  <div class="form-field">
+                    <input
+                      class="input"
+                      type="email"
+                      id="user-email"
+                      name="user-email"
+                    />
+                    <label class="form-label" for="user-email">Email</label>
+                  </div>
+                  <div class="form-field-calendar">
+                    <label for="select-date"
+                      >Select date and time for call</label
+                    >
+                    <input
+                      class="input"
+                      type="datetime-local"
+                      id="select-date"
+                      name="select-date"
+                    />
+                  </div>
+                  <button class="form-button button" type="submit">
+                    Submit
+                  </button>
+                  <p class="confirm-text">
+                    I agree with
+                    <a class="terms-link" href="#">Terms & Conditions</a>
+                  </p>
+                </form>
+              </div>
+              <iframe
+                class="googlemap"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5147.997746057859!2d24.024272896683147!3d49.82368638019402!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae78ac19b0467%3A0x2b2237553544c794!2z0KHRgtGA0YvQudGB0LrQuNC5INC_0LDRgNC6!5e0!3m2!1sru!2sua!4v1699382420949!5m2!1sru!2sua"
+                width="600"
+                height="600"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
             </div>
-            <iframe
-              class="googlemap"
-              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5147.997746057859!2d24.024272896683147!3d49.82368638019402!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473ae78ac19b0467%3A0x2b2237553544c794!2z0KHRgtGA0YvQudGB0LrQuNC5INC_0LDRgNC6!5e0!3m2!1sru!2sua!4v1699382420949!5m2!1sru!2sua"
-              width="600"
-              height="600"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
+          </section>
           <h2 class="header">News</h2>
           <audio controls>
             <source src="./audio/Track777.mp3" />
@@ -300,9 +351,65 @@
         </address>
       </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-hidden">
       <div class="modal">
         <button class="modal-bttn-close" type="button">close</button>
+        <h1>Book a call</h1>
+        <p class="text-top">Fill the form to contact us</p>
+        <form name="contact-form" autocomplete="off">
+          <div class="form-field">
+            <input
+              class="input"
+              type="text"
+              id="user-name"
+              name="user-name"
+              required
+              minlength="2"
+              maxlength="30"
+            />
+            <label class="form-label" for="user-name">Name</label>
+          </div>
+          <div class="form-field">
+            <input
+              class="input"
+              type="tel"
+              id="user-tel"
+              name="user-tel"
+              required
+              minlength="8"
+              maxlength="12"
+              pattern="^\+[0-9]{12}"
+            />
+            <label class="form-label" for="user-tel">Telephone number</label>
+          </div>
+          <div class="form-field">
+            <input
+              class="input"
+              type="email"
+              id="user-email"
+              name="user-email"
+              required
+              minlength="5"
+              maxlength="30"
+            />
+            <label class="form-label" for="user-email">Email</label>
+          </div>
+          <div class="form-field-calendar">
+            <label for="select-date">Select date and time for call</label>
+            <input
+              class="input"
+              type="datetime-local"
+              id="select-date"
+              name="select-date"
+            />
+          </div>
+          <button class="form-button button" type="submit">Submit</button>
+          <input class="checkbox" type="checkbox" id="terms" name="terms" />
+          <label class="confirm-text" for="terms"
+            >I agree with
+            <a class="terms-link" href="#">Terms & Conditions</a></label
+          >
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
