@@ -1,0 +1,18 @@
+.advantages {
+    background-color: coral;
+    color: var(--color-light);
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 16px 0;
+}
+
+.advantagesItems {
+    color: var(--color-light);
+    letter-spacing: 4px;
+    word-spacing: 15 px;
+    font-size: 20px;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 1.5;
+}

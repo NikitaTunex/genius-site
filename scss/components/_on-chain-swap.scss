@@ -1,0 +1,82 @@
+.chainsContainer {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.switchArrowButton {
+    /* display: flex; */
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 2px solid var(--color-marionette);
+    padding: 0;
+    cursor: pointer;
+}
+
+.switchArrowButton.next {
+    transform: rotate(180deg);
+}
+
+.switchArrowButton:hover {
+    background-color: var(--color-dark);
+    // border: 2px solid var(--color-light);
+}
+
+.chainArrow {
+    fill: var(--color-marionette);
+}
+
+.switchArrowButton:hover .chainArrow {
+    fill: var(--color-light);
+}
+
+.chain {
+    position: relative;
+    // box-shadow: 5px 5px 0px 2px black;
+    height: 444px;
+    // background-image: linear-gradient(180deg,
+    //         #a64b00 20%,
+    //         #996439 25%);
+    // padding: 24px 181deg #00A67C 20.21%, #086351 133.35%;
+    border-radius: 20px;
+    transition: transform 0.3s;
+}
+
+.chain:hover {
+    transform: scale(1.05);
+}
+
+.ChainList {
+    display: flex;
+    gap: 20px;
+}
+
+.chain-images{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    // opacity: 0.3;
+    z-index: -1;
+}
+
+// .chain-ETH{
+//     background: url(.//images/Blockchain-Ethereum.jpg);
+//         background-attachment: fixed;
+//         background-size: cover;
+//         background-position: center;
+//         background-repeat: no-repeat
+// }
+
+.text-main{
+    color: var(--color-light);
+    padding-left: 8px;
+    padding-right: 8px
+}

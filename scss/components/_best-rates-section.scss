@@ -1,0 +1,17 @@
+.rates span {
+    text-transform: uppercase;
+    color: var(--color-dark);
+    font-weight: 600;
+}
+
+.BestRatesContainer {
+    display: flex;
+    gap: 100px;
+    padding-top: 16px;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.BestRatesContent {
+    max-width: 710px;
+}

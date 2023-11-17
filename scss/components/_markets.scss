@@ -1,0 +1,20 @@
+.currencyArticle {
+    display: flex;
+    gap: 30px;
+}
+
+.markets-list {
+    display: flex;
+    gap: 100px;
+}
+
+.markets-item {
+    flex-basis: calc((100% - 50px) / 2);
+}
+
+.currency {
+    width: 175px;
+    height: 175px;
+    // border-radius: 4px 4px 4px 200px;
+    // box-shadow: -16px 800px 0 0 var(--color-light), -16px 16px 0 2px var(--color-marionette);
+}

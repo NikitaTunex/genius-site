@@ -1,0 +1,50 @@
+.footer-logo-size {
+    width: 150px;
+    height: 125px;
+}
+
+.tel {
+    flex-grow: 1;
+}
+
+/* .footer-logo{
+    flex-grow: 1;
+} */
+.footer-menu {
+    gap: 50px;
+    flex-grow: 1;
+}
+
+.rights {
+    gap: 50px;
+    display: flex;
+    flex-grow: 1;
+}
+
+.footer-address {
+    gap: 50px;
+    display: flex;
+    flex-basis: 50%;
+}
+
+.footer-nav {
+    gap: 200px;
+    display: flex;
+    flex-basis: 50%;
+}
+
+.footer-container {
+    color: var(--color-light);
+    display: flex;
+    gap: 50px;
+}
+
+.footer {
+    padding: 50px 0;
+    margin: 5 px;
+    background: url(../images/footerBG.png);
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,38 @@
+.googlemap {
+    flex-shrink: 0;
+    border: none;
+    border-radius: 16px;
+}
+
+.contact-form {
+    margin-top: 48px;
+}
+
+.contact-container {
+    display: flex;
+    gap: 126px;
+}
+
+.videoFile {
+    width: 600px;
+    height: 600px;
+}
+
+.address-icon {
+    fill: var(--color-marionette);
+}
+
+.address-icon:hover {
+    fill: var(--color-light);
+}
+
+.address {
+    color: var(--color-marionette);
+    line-height: 1.5;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+.Policy {
+    color: var(--color-light);
+}

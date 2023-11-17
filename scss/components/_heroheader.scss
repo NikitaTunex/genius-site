@@ -1,0 +1,31 @@
+.HeroSection {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(../images/header.svg);
+    background-color: var(--color-dark);
+    padding: 272px 0;
+}
+
+.HeroHeader {
+    margin-bottom: 0;
+    color: var(--color-light);
+    text-align: center;
+    text-shadow: 2px 3px 4px var(--color-dark);
+    letter-spacing: 4px;
+    word-spacing: 15 px;
+    font-size: 90px;
+    font-weight: 900;
+    font-style: italic;
+    line-height: 1.5;
+    background-color: transparent;
+    animation-name: spin;
+    animation-duration: 1s
+        /* text-transform: uppercase; */
+}
+
+.HeroHeader span {
+    color: var(--color-marionette);
+    font-family: 'Poppins', sans-serif;
+}

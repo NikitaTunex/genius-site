@@ -1,0 +1,25 @@
+.Wallet {
+    border-radius: 36px;
+    transform: translateX(-20px);
+    transition: opacity 1s, transform 1s;
+    /* transform: skew(120deg,20deg); */
+}
+
+.Wallet:hover {
+    transform: translateX(0);
+    opacity: 0.7;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0);
+    }
+
+    50% {
+        transform: rotate(180deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
