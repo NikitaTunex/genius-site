@@ -23,9 +23,19 @@
     animation-name: spin;
     animation-duration: 1s
         /* text-transform: uppercase; */
+
+
 }
 
 .HeroHeader span {
     color: var(--color-marionette);
     font-family: 'Poppins', sans-serif;
+}
+
+.HeroHeader{
+    @media screen and (max-width:$bp-desktop) {
+            font-size: 45px;
+            font-weight: 900;
+            line-height: 1.5;
+        }
 }
